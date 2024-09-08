@@ -18,6 +18,13 @@
 11. Есть общий рейтинг по играм
 12. Сама платформа мультиязычная, поддерживает казахский, русский и английский языки.
 
+```
+npm i && npm run build
+php artisan serve
+```
+
+WEB: https://th.reesang.digital
+
 Использовали: 
 1. Bootstarp - https://getbootstrap.com/
 2. Laravel 11 - https://laravel.com/
