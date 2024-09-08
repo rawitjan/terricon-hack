@@ -1,0 +1,107 @@
+{
+    "login": "Кіру",
+    "register": "Тіркелу",
+    "logout": "Жүйеден шығу",
+
+    "m.profile": "Профиль",
+    "m.home": "Басты",
+    "m.game": "Ойындар",
+    "m.books": "Кітапхана",
+    "m.book-exchange": "Кітап алмасу",
+    "m.my-collections": "Менің коллекциям",
+    "m.clubs": "Бірлестіктер",
+
+    "email": "E-mail",
+    "password": "Құпиясөз",
+    "rememberMe": "Аккаунтты сақтау",
+
+    "form.register.name": "Есіміңіз",
+    "form.register.surname": "Тегіңіз",
+    "form.register.email": "Электронды почта мекенжайы",
+    "form.register.phone_number": "Ұялы телефон номері (міндетті емес)",
+    "form.register.password": "Құпиясөз",
+    "form.register.password-confirm": "Құпиясөзді растау",
+
+    "icon": "<svg width=':s' height=':s' class=\"icon-tabler\"> <use xlink:href=\"/storage/platform/tabler-sprite.svg#tabler-:i\" /> </svg>",
+    "reset": "Бас тарту",
+    "submit": "Сақтау",
+    "filter": "Фильтр",
+    "search": "Іздеу",
+    "settings": "Баптаулар",
+    "settings.profile.edit": "Деректерді жаңарту",
+    "settings.profile.password_update": "Құпиясөзді жаңарту",
+    "settings.profile.delete_acc": "Аккаунты жою",
+    "settings.profile.avatar_upd": "Аватарды өзгерту",
+
+    "book-exc.thumbnail": "Кітабыңыздың суретін жүктеңіз",
+    "book-exc.my-book": "КІтабыңыз туралы ақпарат (атауы, бапа, автор, жылы)",
+    "book-exc.exchange": "Алмастырамын",
+    "book-exc.free": "Сыйлаймын",
+    "book-exc.exc-to": "Алмастыруға жоспарлап отырған кітап туралы ақпарат",
+    "book-exc.description": "Қосымша ақпарат немес ескертпе",
+
+    "book.authors": "Авторлар(-ы)",
+    "book.categories": "Категория(-лар)",
+    "book.isbn10": "ISBN",
+    "book.publish_year": "Басылған жылы",
+    "book.num_pages": "Бет саны",
+    "book.description": "Сипаттамасы",
+    "book.share.post": "Бөлісу",
+    "book.add.collection": "Коллекцияға қосу",
+
+    "book.add.comment": "Пікір қалдыру",
+    "book.another.comments": "Оқырман пікірлері",
+
+    "collection.title": "Атауы",
+    "collections": "Коллекциялар",
+
+    "post.be.my-book": "Менің кітабым",
+    "post.be.type.exchange": "Алмастырамын",
+    "post.be.type.free": "Сыйлаймын",
+    "post.be.exc-to": "Алмастырғым келеді",
+
+    "author.books": "Автордың өзге шығармалары",
+    "category.books": "Назар салыңыз",
+
+    "filter.book.title": "Атауы",
+    "filter.book.authors": "Авторы",
+    "filter.book.categories": "Категориясы",
+    "filter.book.publish_year": "Шығарылған жылы",
+
+    "collection.not.found": "Бұндай коллекция табылмады",
+    "collection.not.books": "Коллекцияға кітаптар қосылмаған, қосу үшін кітапханаға өтіп, кітапты таңдауыңыз қажет",
+
+    "current_password": "Ағымдағы құпиясөз",
+    "new_password": "Жаңа құпиясөз",
+    "new_password_confirm": "Жаңа құпиясөзді қайталаңыз",
+
+    "profile.posts": "Посттар",
+    "profile.clubs": "Бірлестіктер",
+    "profile.posts.publish": "Жазба жариялау",
+    "profile.posts.post": "Жазба",
+
+    "club.title": "Бірлестік атауы",
+    "club.type": "Бірлестік жұмысының бағыты",
+    "club.type.sciense": "Ғылыми",
+    "club.type.subject": "Пәндік",
+    "club.type.sport": "Спорттық",
+    "club.type.creative": "Шығармашылық",
+    "club.description": "Бірлестік жайында қысқаша",
+    "club.reader.count": "Оқырмандар саны",
+    "club.entryed.count": "Мүшелер саны",
+
+    "settings.club.delete": "Бірлестікті жою",
+
+    "all": "Барлығы",
+    "top5.books": "Топ 5 кітап",
+    "404": "Not Found",
+    "all.posts": "Жазбалар",
+
+    "gameType.find_by_thumbnail": "Мұқаба негізінде",
+    "gameType.find_by_thumbnail.info": "Сізге 5 кітаптың мұқабасы беріледі, соның негізінде кітаптың атауын табуыңыз қажет.",
+    "gameType.find_by_description": "Сипаттама негізінде",
+    "gameType.find_by_description.info": "Сізге 5 кітаптың сипаттамасы беріледі, соның негізінде кітаптың атауын табуыңыз қажет.",
+
+    "next": "Келесі",
+    "finish": "Аяқтау"
+}
