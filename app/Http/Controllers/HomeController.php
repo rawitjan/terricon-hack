@@ -24,12 +24,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $books = Books::with('ratings')
-            ->leftJoin('ratings', 'books.id', '=', 'ratings.book_id')
-            ->select('books.*', DB::raw('AVG(ratings.star) as average_rating'))
-            ->groupBy('books.id')
-            ->orderByDesc('average_rating')
-            ->paginate(5);
+        $books = Books::withAvg('ratings', 'star')
+    ->orderByDesc('ratings_avg_star')
+    ->paginate(5);
 
         $posts = Posts::paginate(10);
         return view('home', ['books' => $books, 'posts' => $posts]);

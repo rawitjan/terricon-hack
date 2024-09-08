@@ -39,7 +39,7 @@
                                         <img class="avatar avatar-48 rounded-circle" src="{{ Auth::user()->avatar }}">
                                     @else
                                         <span
-                                            class="avatar avatar-48 rounded-circle bg-primary my-auto">{{ $Auth::user()->avatar }}</span>
+                                            class="avatar avatar-48 rounded-circle bg-primary my-auto">{{ Auth::user()->avatar }}</span>
                                     @endif
                                     <div class="my-auto lh-1">
                                         <span class="fw-medium">{{ Auth::user()->name }}</span><br>
