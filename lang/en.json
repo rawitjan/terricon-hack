@@ -1,0 +1,115 @@
+{
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+
+    "m.profile": "Profile",
+    "m.home": "Home",
+    "m.game": "Games",
+    "m.books": "Library",
+    "m.book-exchange": "Book Exchange",
+    "m.my-collections": "My Collections",
+    "m.clubs": "Clubs",
+
+    "email": "E-mail",
+    "password": "Password",
+    "rememberMe": "Remember Me",
+
+    "form.register.name": "First Name",
+    "form.register.surname": "Last Name",
+    "form.register.email": "Email Address",
+    "form.register.phone_number": "Phone Number (optional)",
+    "form.register.password": "Password",
+    "form.register.password-confirm": "Confirm Password",
+
+    "icon": "<svg width=':s' height=':s' class=\"icon-tabler\"> <use xlink:href=\"/storage/platform/tabler-sprite.svg#tabler-:i\" /> </svg>",
+    "reset": "Cancel",
+    "submit": "Save",
+    "filter": "Filter",
+    "search": "Search",
+    "settings": "Settings",
+    "settings.profile.edit": "Update Information",
+    "settings.profile.password_update": "Change Password",
+    "settings.profile.delete_acc": "Delete Account",
+    "settings.profile.avatar_upd": "Change Avatar",
+
+    "book-exc.thumbnail": "Upload an image of your book",
+    "book-exc.my-book": "Book Information (title, condition, author, year)",
+    "book-exc.exchange": "I want to exchange",
+    "book-exc.free": "I want to give away",
+    "book-exc.exc-to": "Information about the book you want to exchange for",
+    "book-exc.description": "Additional information or notes",
+
+    "book.authors": "Authors",
+    "book.categories": "Categories",
+    "book.isbn10": "ISBN",
+    "book.publish_year": "Publication Year",
+    "book.num_pages": "Number of Pages",
+    "book.description": "Description",
+    "book.share.post": "Share",
+    "book.add.collection": "Add to Collection",
+
+    "book.add.comment": "Leave a Comment",
+    "book.another.comments": "Reader Comments",
+
+    "collection.title": "Title",
+    "collections": "Collections",
+
+    "post.be.my-book": "My Book",
+    "post.be.type.exchange": "I want to exchange",
+    "post.be.type.free": "I want to give away",
+    "post.be.exc-to": "I want to exchange for",
+
+    "author.books": "Other Works by the Author",
+    "category.books": "Recommended",
+
+    "filter.book.title": "Title",
+    "filter.book.authors": "Authors",
+    "filter.book.categories": "Categories",
+    "filter.book.publish_year": "Publication Year",
+
+    "collection.not.found": "Collection not found",
+    "collection.not.books": "No books have been added to this collection. To add books, go to the library and select a book",
+
+    "current_password": "Current Password",
+    "new_password": "New Password",
+    "new_password_confirm": "Confirm New Password",
+
+    "profile.posts": "Posts",
+    "profile.clubs": "Clubs",
+    "profile.posts.publish": "Publish Post",
+    "profile.posts.post": "Post",
+
+    "club.title": "Club Name",
+    "club.type": "Club Type",
+    "club.type.sciense": "Scientific",
+    "club.type.subject": "Subject",
+    "club.type.sport": "Sports",
+    "club.type.creative": "Creative",
+    "club.description": "Brief Description of the Club",
+    "club.reader.count": "Number of Readers",
+    "club.entryed.count": "Number of Members",
+
+    "settings.club.delete": "Delete Club",
+
+    "all": "All",
+    "top5.books": "Top 5 Books",
+    "404": "Not Found",
+    "all.posts": "Posts",
+
+    "gameType.find_by_thumbnail": "By Cover",
+    "gameType.find_by_thumbnail.info": "You will be shown 5 book covers and need to identify the book title based on the cover.",
+    "gameType.find_by_description": "By Description",
+    "gameType.find_by_description.info": "You will be shown 5 book descriptions and need to identify the book title based on the description.",
+
+    "next": "Next",
+    "finish": "Finish",
+
+    "game.result": "Result",
+    "restart": "Try Again",
+
+    "gr.reader": "Reader",
+    "gr.score": "Overall Score",
+
+    "top10.week": "Top 10 of the Week"
+}

@@ -45,9 +45,13 @@
                     <div class="card">
                         <div class="card-body p-0">
                             <img src="{{ $book->thumbnail }}" alt="" class="img-fluid w-100 rounded">
-                            <div class="m-3">
-                                <a class="btn btn-sm bg-primary bg-opacity-75 pe-none">{{$book->categories}}</a><br>
-                                <span class="fw-bold h4 text-primary">{{ $book->title }}</span>
+                            <div class="p-2">
+                                <div class="d-flex gap-1 me-auto">
+                                    <span class="my-auto"><x-ui.star-rating :rating="$book->rating()" id="book" /></span>
+                                    <span class="my-auto">({{ round($book->rating(), 1) }})</span>
+                                </div>
+                                <span class="h5 fw-medium">{{ $book->title }}</span><br>
+                                <span class="small text-muted">{{ $book->authors }} [{{ $book->publish_year }}]</span>
                             </div>
                         </div>
                     </div>

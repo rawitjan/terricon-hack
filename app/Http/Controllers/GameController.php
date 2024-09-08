@@ -4,13 +4,36 @@ namespace App\Http\Controllers;
 
 use App\Models\Books;
 use App\Models\Game;
+use App\Models\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class GameController extends Controller
 {
-    public function index(){
-        return view('game.index');
+    public function index()
+    {
+        $startOfWeek = Carbon::now()->startOfWeek();
+        $endOfWeek = Carbon::now()->endOfWeek();
+
+        $games = Game::where('ended', '>=', $startOfWeek)
+            ->where('ended', '<=', $endOfWeek)
+            ->whereNotNull('score')
+            ->get();
+
+        $leaderboard = $games->groupBy('user_id')
+            ->map(function ($games) {
+                return $games->sum('score');
+            })
+            ->sortDesc()
+            ->take(10);
+        $top_users = $leaderboard->keys();
+
+        $users = User::whereIn('id', $top_users)->get();
+        return view('game.index', [
+            'leaderboard' => $leaderboard,
+            'users' => $users
+        ]);
     }
     public function create(Request $request, $gameType)
     {
@@ -18,10 +41,10 @@ class GameController extends Controller
 
         $questions = $books->map(function ($book) use ($gameType) {
             $options = Books::where('id', '!=', $book->id)
-                            ->inRandomOrder()
-                            ->limit(3)
-                            ->get(['id', 'title'])
-                            ->toArray();
+                ->inRandomOrder()
+                ->limit(3)
+                ->get(['id', 'title'])
+                ->toArray();
 
             $correctOption = [
                 'id' => $book->id,

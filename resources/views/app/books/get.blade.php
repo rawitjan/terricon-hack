@@ -146,7 +146,7 @@
                         <div class="card-body">
                             <span class="h5 fw-bold text-primary mb-3">@lang('author.books')</span>
                             @foreach ($book->another_books_author as $ab)
-                                <div class="card mb-3">
+                                <a href="{{ route('books.get', ['id' => $ab->id]) }}"  class="text-decoration-none card mb-3">
                                     <div class="card-body p-0">
                                         <img src="{{ $ab->thumbnail }}" alt="" class="w-100 img-fluid rounded">
                                         <div class="p-2">
@@ -160,17 +160,17 @@
                                                 [{{ $ab->publish_year }}]</span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             @endforeach
                         </div>
                     </div>
                 @endif
                 @if ($book->another_books_category->count() > 0)
-                    <div class="card">
+                    <div class=" card">
                         <div class="card-body">
                             <span class="h5 fw-bold text-primary mb-3">@lang('category.books')</span>
                             @foreach ($book->another_books_category as $ab)
-                                <div class="card mb-3">
+                                <a href="{{ route('books.get', ['id' => $ab->id]) }}"  class="text-decoration-none card mb-3">
                                     <div class="card-body p-0">
                                         <img src="{{ $ab->thumbnail }}" alt="" class="w-100 img-fluid rounded">
                                         <div class="p-2">
@@ -184,7 +184,7 @@
                                                 [{{ $ab->publish_year }}]</span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             @endforeach
                         </div>
                     </div>

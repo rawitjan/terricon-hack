@@ -1,0 +1,115 @@
+{
+    "login": "Войти",
+    "register": "Зарегистрироваться",
+    "logout": "Выйти",
+
+    "m.profile": "Профиль",
+    "m.home": "Главная",
+    "m.game": "Игры",
+    "m.books": "Библиотека",
+    "m.book-exchange": "Обмен книгами",
+    "m.my-collections": "Мои коллекции",
+    "m.clubs": "Клубы",
+
+    "email": "E-mail",
+    "password": "Пароль",
+    "rememberMe": "Запомнить меня",
+
+    "form.register.name": "Имя",
+    "form.register.surname": "Фамилия",
+    "form.register.email": "Электронная почта",
+    "form.register.phone_number": "Номер телефона (не обязательно)",
+    "form.register.password": "Пароль",
+    "form.register.password-confirm": "Подтверждение пароля",
+
+    "icon": "<svg width=':s' height=':s' class=\"icon-tabler\"> <use xlink:href=\"/storage/platform/tabler-sprite.svg#tabler-:i\" /> </svg>",
+    "reset": "Отмена",
+    "submit": "Сохранить",
+    "filter": "Фильтр",
+    "search": "Поиск",
+    "settings": "Настройки",
+    "settings.profile.edit": "Обновить данные",
+    "settings.profile.password_update": "Изменить пароль",
+    "settings.profile.delete_acc": "Удалить аккаунт",
+    "settings.profile.avatar_upd": "Изменить аватар",
+
+    "book-exc.thumbnail": "Загрузите изображение книги",
+    "book-exc.my-book": "Информация о книге (название, состояние, автор, год)",
+    "book-exc.exchange": "Обменяю",
+    "book-exc.free": "Подарю",
+    "book-exc.exc-to": "Информация о книге, на которую хотите обменять",
+    "book-exc.description": "Дополнительная информация или примечание",
+
+    "book.authors": "Авторы",
+    "book.categories": "Категории",
+    "book.isbn10": "ISBN",
+    "book.publish_year": "Год издания",
+    "book.num_pages": "Количество страниц",
+    "book.description": "Описание",
+    "book.share.post": "Поделиться",
+    "book.add.collection": "Добавить в коллекцию",
+
+    "book.add.comment": "Оставить комментарий",
+    "book.another.comments": "Комментарии читателей",
+
+    "collection.title": "Название",
+    "collections": "Коллекции",
+
+    "post.be.my-book": "Моя книга",
+    "post.be.type.exchange": "Обменяю",
+    "post.be.type.free": "Подарю",
+    "post.be.exc-to": "Хочу обменять",
+
+    "author.books": "Другие книги автора",
+    "category.books": "Рекомендуемое",
+
+    "filter.book.title": "Название",
+    "filter.book.authors": "Авторы",
+    "filter.book.categories": "Категории",
+    "filter.book.publish_year": "Год издания",
+
+    "collection.not.found": "Коллекция не найдена",
+    "collection.not.books": "В коллекцию не добавлено ни одной книги. Чтобы добавить книги, перейдите в библиотеку и выберите книгу",
+
+    "current_password": "Текущий пароль",
+    "new_password": "Новый пароль",
+    "new_password_confirm": "Подтвердите новый пароль",
+
+    "profile.posts": "Записи",
+    "profile.clubs": "Клубы",
+    "profile.posts.publish": "Опубликовать запись",
+    "profile.posts.post": "Запись",
+
+    "club.title": "Название клуба",
+    "club.type": "Направление деятельности клуба",
+    "club.type.sciense": "Научный",
+    "club.type.subject": "Предметный",
+    "club.type.sport": "Спортивный",
+    "club.type.creative": "Творческий",
+    "club.description": "Краткое описание клуба",
+    "club.reader.count": "Количество читателей",
+    "club.entryed.count": "Количество участников",
+
+    "settings.club.delete": "Удалить клуб",
+
+    "all": "Все",
+    "top5.books": "Топ 5 книг",
+    "404": "Не найдено",
+    "all.posts": "Записи",
+
+    "gameType.find_by_thumbnail": "По обложке",
+    "gameType.find_by_thumbnail.info": "Вам будет показано 5 обложек книг, и нужно будет определить название книги по обложке.",
+    "gameType.find_by_description": "По описанию",
+    "gameType.find_by_description.info": "Вам будет показано 5 описаний книг, и нужно будет определить название книги по описанию.",
+
+    "next": "Следующий",
+    "finish": "Завершить",
+
+    "game.result": "Результат",
+    "restart": "Попробовать снова",
+
+    "gr.reader": "Читатель",
+    "gr.score": "Общий результат",
+
+    "top10.week": "Топ 10 недели"
+}
